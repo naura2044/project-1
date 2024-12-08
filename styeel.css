@@ -1,0 +1,560 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url(assets/font/Quicksand/static/Quicksand-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Quicksand-Light";
+    src: url(assets/font/Quicksand/static/Quicksand-Light.ttf);
+}
+
+* {
+    font-family: "Quicksand";
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #372744;
+}
+
+.nav-home {
+    background-color: #592671;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    position: relative;
+    z-index: 10px;
+    height: 90px;
+}
+
+.logo-home {
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.logo-home h1 {
+    font-size: 30px;
+}
+
+.navbar-home {
+    margin-top: 35px;
+}
+
+.navbar-home a {
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.navbar-home a:hover {
+    color: black;
+}
+
+.sosmed-home {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.sosmed-home img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.nama-home h1 {
+    font-size: 50px;
+    margin-left: 40px;
+    height: 300px;
+}
+
+.nama-home a {
+    border: 3px solid yellow;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin-left: 45px;
+}
+
+.nama-home a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.foto-home {
+    margin-left: 100px;
+}
+
+.foto-home img {
+    width: 500px;
+}
+
+.skill {
+    background-color: #592671;
+    height: 900px;
+}
+
+.judul-skill {
+    margin-left: 40px;
+    padding-top: 60px;
+    }
+
+.judul-skill h1 {
+    font-size: 50px;
+}
+
+.deskripsi-skill {
+    width: 1200px;
+    margin-left: 42px;
+    margin-top: 30px;
+}
+
+.deskripsi-skill p {
+    font-family: "Quicksand-Light";
+}
+
+.foto-skill {
+    margin-top: 140px;
+    margin-left: 40px;
+}
+
+.foto-skill img {
+    background-color: #372744;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.judul-project {
+    margin-left: 40px;
+    padding-top: 60px;
+}
+
+.judul-project h1 {
+    font-size: 50px;
+}
+
+.deskripsi-project {
+    width: 1200px;
+    margin-left: 42px;
+    margin-top: 30px;
+}
+
+.deskripsi-project p {
+    font-family: "Quicksand-Light";
+}
+
+.project-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 250px;
+}
+
+.project-1 h1 {
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: -10px;
+}
+
+.project-1 p {
+    font-family: "Quicksand-Light";
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.project-1 img {
+    box-shadow: 0px 0px 10px black;
+    border-radius: 30px;
+    width: 600px;
+    margin-left: 40px;
+}
+
+.project-1 a {
+    border: 3px solid yellow;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 100px;
+}
+
+.project-1 a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.project-2 {
+    display: flex;
+    margin-top: 200px;
+}
+
+.project-2 h1 {
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+
+.project-2 p {
+    font-family: "Quicksand-Light";
+    font-size: 20px;
+    width: 600px;
+    margin-top: 30px;
+}
+
+.project-2 img {
+    box-shadow: 0px 0px 10px black;
+    border-radius: 30px;
+    width: 600px;
+    margin-left: 50px;
+}
+
+.project-2 a {
+    border: 3px solid yellow;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 100px;
+}
+.project-2 a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.project-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 200px;
+}
+
+.project-3 h1 {
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: -10px;
+}
+
+.project-3 p {
+    font-family: "Quicksand-Light";
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.project-3 img {
+    box-shadow: 0px 0px 10px black;
+    border-radius: 30px;
+    width: 600px;
+    margin-left: 40px;
+}
+
+.project-3 a {
+    border: 3px solid yellow;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 100px;
+}
+
+.project-3 a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.project-4 {
+    display: flex;
+    margin-top: 200px;
+}
+
+.project-4 h1 {
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+
+.project-4 p {
+    font-family: "Quicksand-Light";
+    font-size: 20px;
+    width: 600px;
+    margin-top: 30px;
+}
+
+.project-4 img {
+    box-shadow: 0px 0px 10px black;
+    border-radius: 30px;
+    width: 600px;
+    margin-left: 50px;
+}
+
+.project-4 a {
+    border: 3px solid yellow;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 100px;
+}
+.project-4 a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.contact {
+    background-color: #592671;
+    height: 800px;
+    margin-top: 200px;
+}
+
+.judul-contact {
+    padding-top: 60px;
+    margin-left: 40px;
+}
+
+.judul-contact h1 {
+    font-size: 50px;
+}
+
+.contact-saya {   
+    background-color: #372744;
+    box-shadow: 0px 0px 10px black;
+    margin: auto;
+    border-radius: 30px;
+    width: 1000px;
+    height: 400px;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.contact-saya input{
+    background-color: #372744;
+    border: 3px solid #592671;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 900px;
+    height: 20px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.contact-saya textarea {
+    background-color: #372744;
+    border: 3px solid #592671;
+    display: block;        
+    margin: auto;          
+    resize: none;
+    font-size: 20px;
+    border-radius: 10px;   
+    height: 100px;         
+    padding: 10px;         
+    width: 894px;          
+}
+
+.contact-saya textarea:focus {
+    background-color: #372744;
+}    
+
+.contact-saya button {
+    border: 3px solid yellow;
+    background-color: #372744;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px 40px;
+    margin: 50px 40px;
+}
+
+.contact-saya button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+footer {
+    height: 100px;
+}
+
+.informasi-contact {
+    display: flex;
+    margin-top: -30px;
+    margin-left: -240px;
+}
+
+.informasi-contact img {
+    width: 80px;
+    margin-top: 100px;
+    margin-left: 400px; 
+}
+
+.caption-contact {
+    display: flex;
+    margin-left: -190px;
+    margin-top: 40px;
+}
+
+.caption-contact p {
+    font-size: 20px;
+    margin-left: 260px;
+}
+
+footer p {
+    font-size: 20px;
+    padding-top: 60px;
+    margin-left: 500px;
+}
+
+@media (max-width: 768px) {
+    .nav-home {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+    }
+
+    .navbar-home a {
+        margin: 10px 0;
+    }
+
+    .sosmed-home {
+        margin: 10px 0;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .nama-home h1 {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    .foto-home img {
+        width: 90%;
+        max-width: 300px;
+        margin: 20px 0;
+    }
+
+    .nama-home a {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .skill {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .foto-skill img {
+        width: 60px;
+        margin: 10px 5px;
+    }
+
+    .project-1,
+    .project-2,
+    .project-3,
+    .project-4 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .project-1 img,
+    .project-2 img,
+    .project-3 img,
+    .project-4 img {
+        width: 90%;
+        max-width: 400px;
+        margin: 20px 0;
+    }
+
+    .project-1 h1,
+    .project-2 h1,
+    .project-3 h1,
+    .project-4 h1 {
+        font-size: 20px;
+    }
+
+    .contact {
+        height: auto;
+        padding: 20px;
+    }
+
+    .contact-saya {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .contact-saya input,
+    .contact-saya textarea {
+        width: 100%;
+    }
+
+    .informasi-contact img {
+        width: 50px;
+    }
+
+    .caption-contact p {
+        text-align: center;
+    }
+
+    footer p {
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav-home {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .navbar-home {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .foto-home img {
+        width: 70%;
+    }
+
+    .project-1,
+    .project-2,
+    .project-3,
+    .project-4 {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .project-1 img,
+    .project-2 img,
+    .project-3 img,
+    .project-4 img {
+        width: 80%;
+        margin: 20px 0;
+    }
+
+    .contact-saya {
+        width: 80%;
+    }
+}
